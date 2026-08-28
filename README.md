@@ -55,6 +55,13 @@ Artifacts are versioned, and `[[wiki links]]` between them resolve into a real g
 - **Turn one person's workflow into everyone's skill**: capture the steps that worked, run them from any MCP client.
 - **Onboarding**: new teammate connects, asks "how do we do X here", gets the team's actual answer.
 
+## Install the Rafter skill
+
+Two ready-to-use files make your AI actually *use* the shared brain instead of guessing:
+
+- [`skill/SKILL.md`](skill/SKILL.md) — a Claude Code skill: drop it into `.claude/skills/rafter/SKILL.md` in your project (or `~/.claude/skills/rafter/`) and your agent searches Rafter before answering "how do we do this" questions, and writes learnings back.
+- [`examples/startup-prompt.md`](examples/startup-prompt.md) — a startup prompt to paste into any tool's project/system instructions for the same behavior without skill support.
+
 ## Links
 
 - Site: [heyrafter.xyz](https://heyrafter.xyz)
